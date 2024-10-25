@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaXTwitter, FaSitemap, FaRss } from 'react-icons/fa6';
 
-export default function Footer() {
+export function Footer() {
   const url = process.env.VERCEL_URL
     ? 'https://' + process.env.VERCEL_URL
     : 'http://localhost:3000'
